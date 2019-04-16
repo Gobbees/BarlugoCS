@@ -132,7 +132,7 @@ namespace BarlugoFX.Controller
             _vibrance = new BrightNess();
             _fileManager = new IOManager();
             if (file == null) throw new ArgumentNullException(nameof(file));
-            _fileManager.LoadImageFromFile(file);
+            _image = _fileManager.LoadImageFromFile(file);
         }
 
         public void LoadNewImage(Uri file)

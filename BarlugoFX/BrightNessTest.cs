@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using NUnit.Framework;
 using BarlugoFX.Model.ImageTools;
 
@@ -7,8 +8,16 @@ namespace BarlugoFX
 {   
     public class BrightNessTest
     {
-        readonly IImage target = new Model.ImageTools.Image(new Bitmap(@"../../JPEGS/begin.JPG"));
-        readonly IImage expectedOuput = new Model.ImageTools.Image(new Bitmap(@"../../JPEGS/expected.JPG"));
+        private readonly IImage target;
+        private readonly IImage expectedOuput;
+
+        public BrightNessTest()
+        {
+            Console.WriteLine("Hello");
+            target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/begin.JPG"));
+            expectedOuput = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/expected.JPG"));
+        }
+
         [Test]
         public void TestInvalidParameter(){
             Console.WriteLine("Ciao");
@@ -25,10 +34,10 @@ namespace BarlugoFX
         public void TestRepeatedParameter()
         {
             Model.Tools.Common.IImageTool bright = new Model.Tools.BrightNess();
-            bright.AddParameter(Model.Tools.Common.ParameterName.NotValid, new Model.Tools.Common.Parameter<Double>(150));
+            bright.AddParameter(Model.Tools.Common.ParameterName.Brightness, new Model.Tools.Common.Parameter<Double>(150));
             try
             {
-                bright.AddParameter(Model.Tools.Common.ParameterName.NotValid, new Model.Tools.Common.Parameter<Double>(150));
+                bright.AddParameter(Model.Tools.Common.ParameterName.Brightness, new Model.Tools.Common.Parameter<Double>(150));
                 Assert.Fail("You need to remove the parameter first");
             }
             catch (Exception)
@@ -41,7 +50,7 @@ namespace BarlugoFX
         public void TestDoubleParameter()
         {
             Model.Tools.Common.IImageTool bright = new Model.Tools.BrightNess();
-            bright.AddParameter(Model.Tools.Common.ParameterName.NotValid, new Model.Tools.Common.Parameter<Double>(150.5));
+            bright.AddParameter(Model.Tools.Common.ParameterName.Brightness, new Model.Tools.Common.Parameter<Double>(150.5));
             try
             {
                 bright.ApplyTool(target);
@@ -57,7 +66,7 @@ namespace BarlugoFX
         public void TestOutOfRangeParameter()
         {
             Model.Tools.Common.IImageTool bright = new Model.Tools.BrightNess();
-            bright.AddParameter(Model.Tools.Common.ParameterName.NotValid, new Model.Tools.Common.Parameter<Double>(256));
+            bright.AddParameter(Model.Tools.Common.ParameterName.Brightness, new Model.Tools.Common.Parameter<Double>(256));
             try
             {
                 bright.ApplyTool(target);

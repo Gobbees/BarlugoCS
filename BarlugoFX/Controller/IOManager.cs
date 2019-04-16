@@ -2,6 +2,8 @@ using System;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Net;
+using System.Reflection;
 using BarlugoFX.Model.ImageTools;
 
 namespace BarlugoFX.Controller
@@ -25,10 +27,10 @@ namespace BarlugoFX.Controller
             {
                 Console.WriteLine("File not valid");
             }
-            Console.WriteLine(file.ToString());
             inputFileName = file.ToString();
             inputFileName = inputFileName.Substring(0, inputFileName.IndexOf('.'));
-            return new Model.ImageTools.Image(new Bitmap(file.ToString()));
+            Console.WriteLine(System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + file.AbsolutePath);
+            return new Model.ImageTools.Image(new Bitmap(file.AbsolutePath));
         }
         
         public void ExportImage(IImage image, Uri file, ImageFormat format) 
@@ -36,7 +38,7 @@ namespace BarlugoFX.Controller
             var bmp = new Bitmap(ImageUtils.ConvertImageToBitmap(image));
             var gBmp = Graphics.FromImage(bmp);
             gBmp.Dispose();
-            bmp.Save(file.ToString(), format);
+            bmp.Save(file.AbsolutePath, format);
         }
         //found on microsoft docs
         public void ExportJPEGWithQuality(IImage image, Uri file, int quality)
