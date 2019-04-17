@@ -21,7 +21,7 @@ namespace BarlugoFX
         public void TestInvalidParameter(){
             Model.Tools.Common.IImageTool bright = new Model.Tools.BrightNess();
             try{
-                bright.AddParameter(Model.Tools.Common.ParameterName.NotValid, new Model.Tools.Common.Parameter<Double>(150));
+                bright.AddParameter(Model.Tools.Common.ParameterName.Exposure, new Model.Tools.Common.Parameter<Double>(150));
                 Assert.Fail("The Parameter Name is not valide");
             }catch(Exception){
                 Assert.IsTrue(true);

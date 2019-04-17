@@ -12,7 +12,7 @@ namespace BarlugoFX
         static void Main(string[] args)
         {
             AppManager manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/bin/Debug/netcoreapp2.0/JPEGS/begin.jpg"));
-            manager.Contrast = 10;
+            manager.Cropper = new int[] {0,0,800,800};
             manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/bin/Debug/netcoreapp2.0/JPEGS/outputContrast.jpeg"), ImageFormat.Jpeg );
             Console.WriteLine("Saved");
         }

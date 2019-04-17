@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Drawing.Imaging;
 using BarlugoFX.Model.ImageTools;
 
@@ -10,14 +11,22 @@ namespace BarlugoFX.Controller
         /// The manager's image.
         /// </summary>
         IImage Image { get; }
+        /// <summary>
+        /// Sets the exposure
+        /// </summary>
         double Exposure { set; }
+        /// <summary>
+        /// Sets the contrast
+        /// </summary>
         double Contrast { set; }
+        /// <summary>
+        /// Sets the brightness
+        /// </summary>
         double Brightness { set; }
-        double WhiteBalance { set; }
-        double Saturation { set; }
-        double Hue { set; }
-        double BlackAndWhite { set; }
-        double Vibrance { set; }
+        /// <summary>
+        /// Sets the cropper. The array must be like [x1,y1,x2,y2].
+        /// </summary>
+        int[] Cropper { set; }
         /// <summary>
         /// Loads a new file from path.
         /// </summary>

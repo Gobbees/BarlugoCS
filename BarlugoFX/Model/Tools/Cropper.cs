@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Net.WebSockets;
 using BarlugoFX.Model.ImageTools;
 using BarlugoFX.Model.Tools.Common;
 
@@ -12,6 +13,14 @@ namespace BarlugoFX.Model.Tools
 
         private static readonly HashSet<ParameterName> Accepted = new HashSet<ParameterName> {ParameterName.X1, ParameterName.X2, ParameterName.Y1, ParameterName.Y2};
 
+        private Cropper()
+        {
+        }
+
+        public static Cropper CreateCropper()
+        {
+            return new Cropper();
+        }
         public override Tool ThisTool => Tool.Cropper;
         public override IImage ApplyTool(IImage target)
         {

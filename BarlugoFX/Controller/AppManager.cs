@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.ComponentModel.DataAnnotations;
 using System.Drawing.Imaging;
 using BarlugoFX.Model.ImageTools;
 using BarlugoFX.Model.Tools;
@@ -28,6 +30,7 @@ namespace BarlugoFX.Controller
         private readonly IImageTool _srgb;
         private readonly IImageTool _bw;
         private readonly IImageTool _vibrance;
+        private readonly IImageTool _cropper;
         private readonly IOManager _fileManager;
         
         public IImage Image
@@ -53,7 +56,8 @@ namespace BarlugoFX.Controller
                 _contrast.RemoveParameter(ParameterName.Brightness);
             }
         }
-        public double Brightness 
+
+        public double Brightness
         {
             set
             {
@@ -62,60 +66,22 @@ namespace BarlugoFX.Controller
                 _brightness.RemoveParameter(ParameterName.Brightness);
             }
         }
-        public double WhiteBalance 
+        public int[] Cropper
         {
             set
             {
-                _wb.AddParameter(/*ParametersName.WHITEBALANCE*/ParameterName.Brightness, new Parameter<double>(value));
-                _image = _wb.ApplyTool(_image);
-                _wb.RemoveParameter(ParameterName.Brightness);
+                if (value.Length != 4)
+                {
+                    throw new ArgumentException("The arrayList must contain exactly 4 parameters");
+                }
+                _cropper.AddParameter(ParameterName.X1, new Parameter<double>(value[0]));
+                _cropper.AddParameter(ParameterName.Y1, new Parameter<double>(value[1]));
+                _cropper.AddParameter(ParameterName.X2, new Parameter<double>(value[2]));
+                _cropper.AddParameter(ParameterName.Y2, new Parameter<double>(value[3]));
+                _image = _cropper.ApplyTool(_image);
             }
         }
-        public double Saturation
-        {
-            set
-            {
-                _saturation.AddParameter( /*ParametersName.SATURATION*/ParameterName.Brightness, new Parameter<double>(value));
-                _image = _saturation.ApplyTool(_image);
-                _saturation.RemoveParameter(ParameterName.Brightness);
-            }
-        }
-        public double Hue 
-        {
-            set
-            {
-                _hue.AddParameter(/*ParametersName.HUE*/ParameterName.Brightness, new Parameter<double>(value));
-                _image = _hue.ApplyTool(_image);
-                _hue.RemoveParameter(ParameterName.Brightness);
-            }
-        }
-        public double SelectiveColor  //three parameters
-        {
-            set
-            {
-                _srgb.AddParameter(/*ParametersName.BLACKANDWHITE*/ParameterName.Brightness, new Parameter<double>(value));
-                _image = _srgb.ApplyTool(_image);
-                _srgb.RemoveParameter(ParameterName.Brightness);
-            }
-        }
-        public double BlackAndWhite  //three parameters
-        {
-            set
-            {
-                _bw.AddParameter(/*ParametersName.BLACKANDWHITE*/ParameterName.Brightness, new Parameter<double>(value));
-                _image = _bw.ApplyTool(_image);
-                _bw.RemoveParameter(ParameterName.Brightness);
-            }
-        }
-        public double Vibrance 
-        {
-            set
-            {
-                _vibrance.AddParameter(/*ParametersName.VIBRANCE*/ParameterName.Brightness, new Parameter<double>(value));
-                _image = _vibrance.ApplyTool(_image);
-                _vibrance.RemoveParameter(ParameterName.Brightness);
-            }
-        }
+
         /// <summary>
         /// The class constructor
         /// </summary>
@@ -132,6 +98,7 @@ namespace BarlugoFX.Controller
             _srgb = new BrightNess();
             _bw = new BrightNess();
             _vibrance = new BrightNess();
+            _cropper = Model.Tools.Cropper.CreateCropper();
             _fileManager = new IOManager();
             if (file != null)
             {
