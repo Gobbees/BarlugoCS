@@ -13,14 +13,12 @@ namespace BarlugoFX
 
         public BrightNessTest()
         {
-            Console.WriteLine("Hello");
             target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/begin.JPG"));
             expectedOuput = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/expected.JPG"));
         }
 
         [Test]
         public void TestInvalidParameter(){
-            Console.WriteLine("Ciao");
             Model.Tools.Common.IImageTool bright = new Model.Tools.BrightNess();
             try{
                 bright.AddParameter(Model.Tools.Common.ParameterName.NotValid, new Model.Tools.Common.Parameter<Double>(150));

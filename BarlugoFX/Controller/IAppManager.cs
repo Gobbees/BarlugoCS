@@ -9,7 +9,7 @@ namespace BarlugoFX.Controller
         /// <summary>
         /// The manager's image.
         /// </summary>
-        IImage Image { get; set; }
+        IImage Image { get; }
         double Exposure { set; }
         double Contrast { set; }
         double Brightness { set; }

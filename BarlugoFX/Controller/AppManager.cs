@@ -30,7 +30,10 @@ namespace BarlugoFX.Controller
         private readonly IImageTool _vibrance;
         private readonly IOManager _fileManager;
         
-        public IImage Image { get; set; }
+        public IImage Image
+        {
+            get => _image;
+        }
 
         public double Exposure 
         {
@@ -117,7 +120,6 @@ namespace BarlugoFX.Controller
         /// The class constructor
         /// </summary>
         /// <param name="file">the file path</param>
-        /// <exception cref="ArgumentNullException">if the param is null</exception>
         public AppManager(Uri file)
         {   
             //init. TEMP. only brightness, contrast and exposure are working.
@@ -131,14 +133,16 @@ namespace BarlugoFX.Controller
             _bw = new BrightNess();
             _vibrance = new BrightNess();
             _fileManager = new IOManager();
-            if (file == null) throw new ArgumentNullException(nameof(file));
-            _image = _fileManager.LoadImageFromFile(file);
+            if (file != null)
+            {
+                _image = _fileManager.LoadImageFromFile(file);
+            }
         }
 
         public void LoadNewImage(Uri file)
         {
             if (file == null) throw new ArgumentNullException(nameof(file));
-            _fileManager.LoadImageFromFile(file);
+            _image = _fileManager.LoadImageFromFile(file);
         }
 
         public void ExportImage(Uri path, ImageFormat format)
