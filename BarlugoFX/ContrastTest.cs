@@ -8,6 +8,9 @@ using NUnit.Framework;
 
 namespace BarlugoFX
 {
+    /// <summary>
+    /// Tests the basic operations on the Contrast tool
+    /// </summary>
     public class ContrastTest
     {
         private readonly IImage _input;
@@ -25,7 +28,7 @@ namespace BarlugoFX
             var contrast = Contrast.CreateContrast();
             try
             {
-                contrast.AddParameter(Model.Tools.Common.ParameterName.NotValid, new Parameter<Double>(150));
+                contrast.AddParameter(Model.Tools.Common.ParameterName.Brightness, new Parameter<Double>(150));
                 Assert.Fail("The Parameter Name is not valid");
             }
             catch (Exception e)
@@ -34,6 +37,9 @@ namespace BarlugoFX
             }
         }
 
+        /// <summary>
+        /// Tests an invalid parameter
+        /// </summary>
         [Test]
         public void TestRepeatedParameter()
         {
@@ -50,6 +56,9 @@ namespace BarlugoFX
             }
         }
 
+        /// <summary>
+        /// Tests a repeated parameter
+        /// </summary>
         [Test]
         public void TestDoubleParameter()
         {
@@ -66,6 +75,9 @@ namespace BarlugoFX
             }
         }
 
+        /// <summary>
+        /// Test an out of range parameter
+        /// </summary>
         [Test]
         public void TestOutOfRangeParameter()
         {

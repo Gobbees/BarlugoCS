@@ -9,7 +9,6 @@ namespace BarlugoFX.Model.Tools.Common
         X1,
         X2,
         Y1,
-        Y2,
-        NotValid
+        Y2
     }
 }
