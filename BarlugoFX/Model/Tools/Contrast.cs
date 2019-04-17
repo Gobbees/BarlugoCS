@@ -34,10 +34,10 @@ namespace BarlugoFX.Model.Tools
             var value = GetValueFromParameter(ParameterName.Contrast, -MaxValue, MaxValue, DefaultValue);
             _contrastCorrectionFactor = (MaxValue + 4) * (value + MaxValue) / (MaxValue * (MaxValue + 4 - value));
             var pixels = target.ImageRGB;
-            var newPixels = new int[target.Width,target.Height];
-            for (var i = 0; i < target.Width; i++) 
+            var newPixels = new int[target.Height,target.Width];
+            for (var i = 0; i < target.Height; i++) 
             {
-                for (var j = 0; j < target.Height; j++) 
+                for (var j = 0; j < target.Width; j++) 
                 {
                     newPixels[i,j] = pixels[i,j];
                     newPixels[i,j] = ColorUtils.SetBlue(newPixels[i,j],

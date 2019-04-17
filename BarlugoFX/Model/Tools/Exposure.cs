@@ -31,19 +31,20 @@ namespace BarlugoFX.Model.Tools
         {
             _value = GetValueFromParameter(ParameterName.Exposure, Min, Max, DefaultValue);
             var pixels = target.ImageRGB;
-            var newPixels = new int[target.Width, target.Height];
-            
-            for (var i = 0; i < target.Width; i++) 
+            var newPixels = new int[target.Height, target.Width];
+            Console.WriteLine(target.Width + " " + target.Height);
+            for (var i = 0; i < target.Height; i++) 
             {
-                for (var j = 0; j < target.Height; j++) 
+                for (var j = 0; j < target.Width; j++) 
                 {
                     var hsb = Color.FromArgb(ColorUtils.GetAlpha(pixels[i, j]), ColorUtils.GetRed(pixels[i, j]),
                         ColorUtils.GetGreen(pixels[i, j]),
-                        ColorUtils.GetGreen(pixels[i, j]));
+                        ColorUtils.GetBlue(pixels[i, j]));
                     Color res = FromHSV(hsb.GetHue(), hsb.GetSaturation(), Math.Abs(_value) < Double.Epsilon ? hsb.GetBrightness() : TruncateSum(hsb.GetBrightness(), _value));
                     newPixels[i, j] = res.ToArgb();
-                    newPixels[i,j] = ColorUtils.SetAlpha(newPixels[i,j], ColorUtils.GetAlpha(pixels[i,j]));
+                    newPixels[i, j] = ColorUtils.SetAlpha(newPixels[i, j], ColorUtils.GetAlpha(pixels[i, j]));
                 }
+                
             }
 
             return new ImageTools.Image(newPixels);

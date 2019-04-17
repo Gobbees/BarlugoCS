@@ -11,10 +11,9 @@ namespace BarlugoFX
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Directory.GetCurrentDirectory());
             Console.WriteLine(System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location));
             AppManager manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/JPEGS/expected.jpg"));
-            manager.Brightness = 10;
+            manager.Exposure = 0.1;
             manager.ExportImage(new Uri(@"/Users/gg_mbpro/Desktop/res.png"), ImageFormat.Png );
             Console.WriteLine("Saved");
         }

@@ -9,10 +9,9 @@ namespace BarlugoFX
 {
     public class IOTest
     {
-        private readonly IImage _image;
         private AppManager _manager;
-        private readonly Uri inputPath = new Uri(Directory.GetCurrentDirectory() + "/JPEGS/image.jpg");
-        private readonly Uri outputPath = new Uri(Directory.GetCurrentDirectory() + "/JPEGS/output.png");
+        private readonly Uri _inputPath = new Uri(Directory.GetCurrentDirectory() + "/JPEGS/image.jpg");
+        private readonly Uri _outputPath = new Uri(Directory.GetCurrentDirectory() + "/JPEGS/output.png");
 
         public IOTest()
         {
@@ -23,7 +22,7 @@ namespace BarlugoFX
         [Test]
         public void LoadingTestFromLoadNewImage()
         {
-            _manager.LoadNewImage(inputPath);
+            _manager.LoadNewImage(_inputPath);
             if (_manager.Image == null)
             {
                 Assert.Fail("The image has not been loaded.");
@@ -33,7 +32,7 @@ namespace BarlugoFX
         [Test]
         public void LoadingTestFromConstructor()
         {
-            _manager = new AppManager(inputPath);
+            _manager = new AppManager(_inputPath);
             if (_manager.Image == null)
             {
                 Assert.Fail("The image has not been loaded.");
@@ -43,13 +42,13 @@ namespace BarlugoFX
         [Test]
         public void ExportTest()
         {
-            _manager = new AppManager(inputPath);
-            if (outputPath.IsFile)
+            _manager = new AppManager(_inputPath);
+            if (_outputPath.IsFile)
             {
-                File.Delete(outputPath.AbsolutePath);
+                File.Delete(_outputPath.AbsolutePath);
             }
-            _manager.ExportImage(outputPath, ImageFormat.Png);
-            if (!outputPath.IsFile)
+            _manager.ExportImage(_outputPath, ImageFormat.Png);
+            if (!_outputPath.IsFile)
             {
                 Assert.Fail("The image has not been exported");
             }
