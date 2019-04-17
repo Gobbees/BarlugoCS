@@ -7,6 +7,9 @@ using NUnit.Framework;
 
 namespace BarlugoFX
 {
+    /// <summary>
+    /// This class tests the manager's I/O operations
+    /// </summary>
     public class IOTest
     {
         private AppManager _manager;
@@ -18,7 +21,9 @@ namespace BarlugoFX
             _manager = new AppManager(null);
         }
         
-        
+        /// <summary>
+        /// Tests the loading of the new image from the method LoadNewImage
+        /// </summary>
         [Test]
         public void LoadingTestFromLoadNewImage()
         {
@@ -29,6 +34,9 @@ namespace BarlugoFX
             }
         }
         
+        /// <summary>
+        /// Tests the loading of the new image from the class constructor
+        /// </summary>
         [Test]
         public void LoadingTestFromConstructor()
         {
@@ -39,6 +47,9 @@ namespace BarlugoFX
             }
         }
 
+        /// <summary>
+        /// Tests the export operation
+        /// </summary>
         [Test]
         public void ExportTest()
         {
