@@ -149,10 +149,5 @@ namespace BarlugoFX.Controller
         {
             _fileManager.ExportImage(_image, path, format);
         }
-
-        public void ExportImage(Uri path, int quality)
-        {
-            _fileManager.ExportJPEGWithQuality(_image, path, quality);
-        }
     }
 }

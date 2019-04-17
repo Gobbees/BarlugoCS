@@ -9,6 +9,5 @@ namespace BarlugoFX.Controller
         string InputFileName { get; }
         IImage LoadImageFromFile(Uri file);
         void ExportImage(IImage image, Uri file, ImageFormat format);
-        void ExportJPEGWithQuality(IImage image, Uri file, int quality);
     }
 }

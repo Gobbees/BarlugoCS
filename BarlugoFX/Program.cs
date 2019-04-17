@@ -11,10 +11,9 @@ namespace BarlugoFX
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location));
-            AppManager manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/JPEGS/expected.jpg"));
-            manager.Exposure = 0.1;
-            manager.ExportImage(new Uri(@"/Users/gg_mbpro/Desktop/res.png"), ImageFormat.Png );
+            AppManager manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/bin/Debug/netcoreapp2.0/JPEGS/begin.jpg"));
+            manager.Contrast = 10;
+            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/bin/Debug/netcoreapp2.0/JPEGS/outputContrast.jpeg"), ImageFormat.Jpeg );
             Console.WriteLine("Saved");
         }
     }

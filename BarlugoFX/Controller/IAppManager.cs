@@ -30,11 +30,5 @@ namespace BarlugoFX.Controller
         /// <param name="path">the output file path</param>
         /// <param name="format">the output format</param>
         void ExportImage(Uri path, ImageFormat format);
-        /// <summary>
-        /// Exports an image in JPEG format with the requested quality.
-        /// </summary>
-        /// <param name="path">the output file path</param>
-        /// <param name="quality">the quality</param>
-        void ExportImage(Uri path, int quality);
     }
 }

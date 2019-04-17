@@ -63,7 +63,5 @@ namespace BarlugoFX
                 Assert.IsTrue(true);
             }
         }
-
-        //The conversion algorithm from RGB to HSV is not equal to the Java one so the result is different and 
     }
 }

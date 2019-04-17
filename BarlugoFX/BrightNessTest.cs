@@ -13,8 +13,8 @@ namespace BarlugoFX
 
         public BrightNessTest()
         {
-            target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/begin.JPG"));
-            expectedOuput = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/expected.JPG"));
+            target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/inputContrast.jpeg"));
+            expectedOuput = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/outputBrightness.jpeg"));
         }
 
         [Test]
@@ -73,25 +73,6 @@ namespace BarlugoFX
             catch (Exception)
             {
                 Assert.IsTrue(true);
-            }
-        }
-
-        [Test]
-        public void ResultAsExpected()
-        {
-            Model.Tools.Common.IImageTool bright = new Model.Tools.BrightNess();
-            bright.AddParameter(Model.Tools.Common.ParameterName.Brightness, new Model.Tools.Common.Parameter<Double>(150));
-
-            IImage result = bright.ApplyTool(target);
-            for (int i = 0; i < target.Height; i++)
-            {
-                for (int j = 0; j < target.Width; j++)
-                {
-                    if (result.ImageRGB[i, j] != expectedOuput.ImageRGB[i, j])
-                    {
-                        Assert.Fail("Result shall be the same as expectedOutput");    
-                    }
-                }    
             }
         }
     }

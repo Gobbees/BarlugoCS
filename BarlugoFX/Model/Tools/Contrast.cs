@@ -1,3 +1,4 @@
+using System;
 using BarlugoFX.Model.ImageTools;
 using BarlugoFX.Model.Tools.Common;
 
@@ -32,6 +33,10 @@ namespace BarlugoFX.Model.Tools
         public override IImage ApplyTool(IImage target)
         {
             var value = GetValueFromParameter(ParameterName.Contrast, -MaxValue, MaxValue, DefaultValue);
+            if(value - Math.Floor(value) > 0)
+            {
+                throw new Exception("The number must not have any decimal value");
+            }
             _contrastCorrectionFactor = (MaxValue + 4) * (value + MaxValue) / (MaxValue * (MaxValue + 4 - value));
             var pixels = target.ImageRGB;
             var newPixels = new int[target.Height,target.Width];
