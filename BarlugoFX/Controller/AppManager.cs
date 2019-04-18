@@ -44,7 +44,7 @@ namespace BarlugoFX.Controller
             {
                 _exposure.AddParameter(ParameterName.Exposure, new Parameter<double>(value));
                 _image = _exposure.ApplyTool(_image);
-                _exposure.RemoveParameter(ParameterName.Brightness);
+                _exposure.RemoveParameter(ParameterName.Exposure);
             }
         }
         public double Contrast 
@@ -53,7 +53,7 @@ namespace BarlugoFX.Controller
             {
                 _contrast.AddParameter(ParameterName.Contrast, new Parameter<double>(value));
                 _image = _contrast.ApplyTool(_image);
-                _contrast.RemoveParameter(ParameterName.Brightness);
+                _contrast.RemoveParameter(ParameterName.Contrast);
             }
         }
 
@@ -79,6 +79,10 @@ namespace BarlugoFX.Controller
                 _cropper.AddParameter(ParameterName.X2, new Parameter<double>(value[2]));
                 _cropper.AddParameter(ParameterName.Y2, new Parameter<double>(value[3]));
                 _image = _cropper.ApplyTool(_image);
+                _cropper.RemoveParameter(ParameterName.X1);
+                _cropper.RemoveParameter(ParameterName.Y1);
+                _cropper.RemoveParameter(ParameterName.X2);
+                _cropper.RemoveParameter(ParameterName.Y2);
             }
         }
 

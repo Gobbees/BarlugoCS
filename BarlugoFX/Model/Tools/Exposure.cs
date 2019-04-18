@@ -32,7 +32,6 @@ namespace BarlugoFX.Model.Tools
             _value = GetValueFromParameter(ParameterName.Exposure, Min, Max, DefaultValue);
             var pixels = target.ImageRGB;
             var newPixels = new int[target.Height, target.Width];
-            Console.WriteLine(target.Width + " " + target.Height);
             for (var i = 0; i < target.Height; i++) 
             {
                 for (var j = 0; j < target.Width; j++) 

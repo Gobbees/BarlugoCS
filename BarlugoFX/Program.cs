@@ -11,9 +11,25 @@ namespace BarlugoFX
     {
         static void Main(string[] args)
         {
-            AppManager manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/bin/Debug/netcoreapp2.0/JPEGS/begin.jpg"));
-            manager.Cropper = new int[] {0,0,800,800};
-            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/bin/Debug/netcoreapp2.0/JPEGS/outputContrast.jpeg"), ImageFormat.Jpeg );
+            AppManager manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/Output/input.jpeg"));
+            Console.WriteLine("Applying exposure....");
+            manager.Exposure = 0.2;
+            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/exposure.jpeg"), ImageFormat.Jpeg );
+            Console.WriteLine("Saved");
+            manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/Output/input.jpeg"));
+            Console.WriteLine("Applying contrast....");
+            manager.Contrast = 100;
+            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/contrast.jpeg"), ImageFormat.Jpeg );
+            Console.WriteLine("Saved");
+            manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/Output/input.jpeg"));
+            Console.WriteLine("Applying brightness....");
+            manager.Brightness = 50;
+            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/brightness.jpeg"), ImageFormat.Jpeg );
+            Console.WriteLine("Saved");
+            manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/Output/input.jpeg"));
+            Console.WriteLine("Applying crop....");
+            manager.Cropper = new int[] {200,200,1200,1200};
+            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/crop.jpeg"), ImageFormat.Jpeg );
             Console.WriteLine("Saved");
         }
     }

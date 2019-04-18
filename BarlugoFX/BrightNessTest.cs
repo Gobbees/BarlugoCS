@@ -9,12 +9,9 @@ namespace BarlugoFX
     public class BrightNessTest
     {
         private readonly IImage target;
-        private readonly IImage expectedOuput;
-
         public BrightNessTest()
         {
-            target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/inputContrast.jpeg"));
-            expectedOuput = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/outputBrightness.jpeg"));
+            target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/input.jpeg"));
         }
 
         [Test]

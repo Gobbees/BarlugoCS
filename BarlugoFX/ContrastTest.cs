@@ -14,12 +14,10 @@ namespace BarlugoFX
     public class ContrastTest
     {
         private readonly IImage _input;
-        private readonly IImage _output;
 
         public ContrastTest()
         {
-            _input = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/begin.JPG"));
-            _output = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/outputContrast.jpeg"));
+            _input = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/input.jpeg"));
         }
 
         [Test]

@@ -13,7 +13,7 @@ namespace BarlugoFX
     public class IOTest
     {
         private AppManager _manager;
-        private readonly Uri _inputPath = new Uri(Directory.GetCurrentDirectory() + "/JPEGS/begin.jpg");
+        private readonly Uri _inputPath = new Uri(Directory.GetCurrentDirectory() + "/JPEGS/input.jpeg");
         private readonly Uri _outputPath = new Uri(Directory.GetCurrentDirectory() + "/JPEGS/output.png");
 
         public IOTest()

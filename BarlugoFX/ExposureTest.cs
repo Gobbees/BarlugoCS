@@ -16,7 +16,7 @@ namespace BarlugoFX
 
         public ExposureTest()
         {
-            _target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/inputExposure.jpeg"));
+            _target = new Model.ImageTools.Image(new Bitmap(Directory.GetCurrentDirectory() + "/JPEGS/input.jpeg"));
         }
     
         /// <summary>
