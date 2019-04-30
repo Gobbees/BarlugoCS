@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a3adfd9-5ad8-44fd-a0e7-fff37af5d3e9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BarlugoFX/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <marker date="1555570876683" expanded="false" signature="6:189" ph="..." />
+                <marker date="1555570876683" expanded="true" signature="210:1757" ph="{...}" />
+                <marker date="1555570876683" expanded="true" signature="230:1755" ph="{...}" />
+                <marker date="1555570876683" expanded="true" signature="276:1749" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/BrightNess.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding>
+                <marker date="1555402445552" expanded="false" signature="6:83" ph="..." />
+                <marker date="1555402445552" expanded="true" signature="116:1524" ph="{...}" />
+                <marker date="1555402445552" expanded="true" signature="166:1522" ph="{...}" />
+                <marker date="1555402445552" expanded="true" signature="291:311" ph="{...}" />
+                <marker date="1555402445552" expanded="true" signature="427:1379" ph="{...}" />
+                <marker date="1555402445552" expanded="true" signature="607:705" ph="{...}" />
+                <marker date="1555402445552" expanded="true" signature="910:1328" ph="{...}" />
+                <marker date="1555402445552" expanded="true" signature="979:1314" ph="{...}" />
+                <marker date="1555402445552" expanded="true" signature="1443:1516" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Exposure.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+              <folding>
+                <marker date="1555570457999" expanded="false" signature="6:105" ph="..." />
+                <marker date="1555570457999" expanded="true" signature="138:3310" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="186:3308" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="369:424" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="434:563" ph="/// Creates a new Exposure. ... " />
+                <marker date="1555570457999" expanded="true" signature="611:666" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="779:1812" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="1042:1749" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="1112:1718" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="1888:2181" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="1965:2008" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="2048:2097" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="2265:3167" ph="{...}" />
+                <marker date="1555570457999" expanded="true" signature="3231:3302" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/AppManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+              <folding>
+                <marker date="1555570060652" expanded="false" signature="6:213" ph="..." />
+                <marker date="1555570060652" expanded="true" signature="245:4529" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="252:421" ph="///The main controller class. ... " />
+                <marker date="1555570060652" expanded="true" signature="463:4527" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="1366:1413" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="1446:1725" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="1472:1715" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="1757:2036" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="1783:2026" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="2070:2359" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="2096:2349" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="2388:3280" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="2414:3270" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="2467:2603" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="3290:3413" ph="/// The class constructor ... " />
+                <marker date="1555570060652" expanded="true" signature="3449:4178" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="4077:4168" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="4222:4378" ph="{...}" />
+                <marker date="1555570060652" expanded="true" signature="4441:4521" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Cropper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <marker date="1555526654958" expanded="false" signature="6:132" ph="..." />
+                <marker date="1555526654958" expanded="true" signature="165:1731" ph="{...}" />
+                <marker date="1555526654958" expanded="true" signature="212:1729" ph="{...}" />
+                <marker date="1555526654958" expanded="true" signature="570:590" ph="{...}" />
+                <marker date="1555526654958" expanded="true" signature="637:691" ph="{...}" />
+                <marker date="1555526654958" expanded="true" signature="802:1595" ph="{...}" />
+                <marker date="1555526654958" expanded="true" signature="1383:1544" ph="{...}" />
+                <marker date="1555526654958" expanded="true" signature="1450:1530" ph="{...}" />
+                <marker date="1555526654958" expanded="true" signature="1659:1723" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/IIOManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+              <folding>
+                <marker date="1555526238990" expanded="false" signature="6:77" ph="..." />
+                <marker date="1555526238990" expanded="true" signature="109:952" ph="{...}" />
+                <marker date="1555526238990" expanded="true" signature="116:195" ph="/// A component that allows I/O operations ... " />
+                <marker date="1555526238990" expanded="true" signature="227:950" ph="{...}" />
+                <marker date="1555526238990" expanded="true" signature="242:318" ph="/// Returns the input file name ... " />
+                <marker date="1555526238990" expanded="true" signature="365:542" ph="/// Loads an image from the input path ... " />
+                <marker date="1555526238990" expanded="true" signature="595:874" ph="/// Exports an image in the requested format to the specified uri ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/ExposureTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/Tool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/Parameter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/IImageTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/IParameter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/ParameterName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/AbstractImageTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Utils/Stage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/BrightNess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/View/AbstractViewController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Utils/Scene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/View/AbstractViewControllerWithManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/Image.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/IImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/ColorUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/ImageUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/ContrastTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Utils/MutablePair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Cropper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/View/View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/View/IViewController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/BrightNessTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Contrast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/IOTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Exposure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Controller/IOManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Controller/AppManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Controller/IIOManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BarlugoFX/Controller/IAppManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Tools/BrightNess.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Stage.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/View/ViewController.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/View/View.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/View/AbstractViewController.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/View/AbstractViewControllerWithManager.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Utils/Scene.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Utils/Stage.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/Tool.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/IParameter.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Tools/Contrast.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Controller/IOManager.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/ParameterName.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Controller/IIOManager.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Tools/Cropper.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Controller/IAppManager.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Controller/AppManager.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Tools/Exposure.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Program.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/BrightNessTest.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/ExposureTest.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/IOTest.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/ContrastTest.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.BarlugoFX">
+    <configuration name="BarlugoFX" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/BarlugoFX/bin/Debug/netcoreapp2.0/BarlugoFX.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BarlugoFX" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BarlugoFX/BarlugoFX.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1920" height="1177" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12886049" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497558" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" sideWeight="0.498779" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501221" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Build" order="13" sideWeight="0.4993895" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/IImageTool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1555400468542" expanded="false" signature="6:47" ph="..." />
+            <marker date="1555400468542" expanded="true" signature="87:395" ph="{...}" />
+            <marker date="1555400468542" expanded="true" signature="121:393" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/ColorUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1555398550692" expanded="true" signature="50:3001" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="87:2999" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="757:818" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="864:922" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="969:1041" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="1088:1160" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="1240:1436" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="1502:1588" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="1656:1760" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="1824:1922" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="1990:2094" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="2160:2242" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="2310:2396" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="2463:2547" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="2615:2701" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="2752:2993" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="2798:2858" ph="{...}" />
+            <marker date="1555398550692" expanded="true" signature="2894:2954" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/Tool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <marker date="1555415566039" expanded="true" signature="38:147" ph="{...}" />
+            <marker date="1555415566039" expanded="true" signature="61:145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/View/AbstractViewController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <marker date="1555406330061" expanded="true" signature="201:685" ph="{...}" />
+            <marker date="1555406330061" expanded="true" signature="234:457" ph="{...}" />
+            <marker date="1555406330061" expanded="true" signature="286:447" ph="{...}" />
+            <marker date="1555406330061" expanded="true" signature="552:679" ph="{...}" />
+            <marker date="1555406330061" expanded="true" signature="585:669" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/View/View.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1555405873843" expanded="false" signature="6:82" ph="..." />
+            <marker date="1555405873843" expanded="true" signature="108:1077" ph="{...}" />
+            <marker date="1555405873843" expanded="true" signature="161:1075" ph="{...}" />
+            <marker date="1555405873843" expanded="true" signature="260:474" ph="///Returns the view controller. ... " />
+            <marker date="1555405873843" expanded="true" signature="506:742" ph="{...}" />
+            <marker date="1555405873843" expanded="true" signature="523:732" ph="{...}" />
+            <marker date="1555405873843" expanded="true" signature="579:678" ph="{...}" />
+            <marker date="1555405873843" expanded="true" signature="773:793" ph="{...}" />
+            <marker date="1555405873843" expanded="true" signature="811:941" ph="///Displays an error alert. ... " />
+            <marker date="1555405873843" expanded="true" signature="1000:1069" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Utils/Scene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <marker date="1555407096830" expanded="true" signature="50:278" ph="{...}" />
+            <marker date="1555407096830" expanded="true" signature="196:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/View/IViewController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1555405873847" expanded="false" signature="6:131" ph="..." />
+            <marker date="1555405873847" expanded="true" signature="157:239" ph="{...}" />
+            <marker date="1555405873847" expanded="true" signature="196:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/View/AbstractViewControllerWithManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="104" />
+          <folding>
+            <marker date="1555406788855" expanded="false" signature="6:58" ph="..." />
+            <marker date="1555406788855" expanded="true" signature="84:587" ph="{...}" />
+            <marker date="1555406788855" expanded="true" signature="162:585" ph="{...}" />
+            <marker date="1555406788855" expanded="true" signature="245:399" ph="{...}" />
+            <marker date="1555406788855" expanded="true" signature="447:579" ph="{...}" />
+            <marker date="1555406788855" expanded="true" signature="483:569" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Utils/MutablePair.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1555400468551" expanded="true" signature="25:2837" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="32:743" ph="/// This class implements a mutable pair, so it is possible to change both its ... " />
+            <marker date="1555400468551" expanded="true" signature="778:2835" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="793:873" ph="/// The first parameter of the pair ... " />
+            <marker date="1555400468551" expanded="true" signature="919:1000" ph="/// The second parameter of the pair ... " />
+            <marker date="1555400468551" expanded="true" signature="1048:1272" ph="///The class constructor. ... " />
+            <marker date="1555400468551" expanded="true" signature="1318:1394" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="1437:1704" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="1753:2686" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="1792:1849" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="1879:1937" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="1983:2041" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="2122:2261" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="2177:2247" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="2310:2368" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="2401:2541" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="2457:2527" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="2592:2650" ph="{...}" />
+            <marker date="1555400468551" expanded="true" signature="2729:2828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Utils/Stage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <marker date="1555407234258" expanded="true" signature="25:345" ph="{...}" />
+            <marker date="1555407234258" expanded="true" signature="50:343" ph="{...}" />
+            <marker date="1555407234258" expanded="true" signature="222:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/IImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1555398550687" expanded="true" signature="36:168" ph="{...}" />
+            <marker date="1555398550687" expanded="true" signature="66:166" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/Image.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1555400468548" expanded="false" signature="6:35" ph="..." />
+            <marker date="1555400468548" expanded="true" signature="73:1013" ph="{...}" />
+            <marker date="1555400468548" expanded="true" signature="107:1011" ph="{...}" />
+            <marker date="1555400468548" expanded="true" signature="357:730" ph="{...}" />
+            <marker date="1555400468548" expanded="true" signature="534:720" ph="{...}" />
+            <marker date="1555400468548" expanded="true" signature="603:706" ph="{...}" />
+            <marker date="1555400468548" expanded="true" signature="767:890" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/IParameter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1555485914656" expanded="true" signature="39:185" ph="{...}" />
+            <marker date="1555485914656" expanded="true" signature="146:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/ParameterName.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <marker date="1555525940192" expanded="true" signature="52:201" ph="{...}" />
+            <marker date="1555525940192" expanded="true" signature="84:199" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/AbstractImageTool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="70" />
+          <folding>
+            <marker date="1555400468545" expanded="false" signature="6:81" ph="..." />
+            <marker date="1555400468545" expanded="true" signature="121:1750" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="180:1748" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="443:874" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="488:611" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="658:728" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="745:863" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="1000:1057" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="1115:1172" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="1353:1742" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="1443:1495" ph="{...}" />
+            <marker date="1555400468545" expanded="true" signature="1550:1700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Contrast.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <marker date="1555486797657" expanded="false" signature="6:83" ph="..." />
+            <marker date="1555486797657" expanded="true" signature="116:2525" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="123:385" ph="///  This class allows changes of an {@link Image} contrast. It only accepts one ... " />
+            <marker date="1555486797657" expanded="true" signature="431:2523" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="647:667" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="676:806" ph="/// Creates a new Contrast class. ... " />
+            <marker date="1555486797657" expanded="true" signature="854:909" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="1024:2382" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="1186:1297" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="1572:2330" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="1642:2316" ph="{...}" />
+            <marker date="1555486797657" expanded="true" signature="2446:2517" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/Parameter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1555400468539" expanded="true" signature="52:259" ph="{...}" />
+            <marker date="1555400468539" expanded="true" signature="100:257" ph="{...}" />
+            <marker date="1555400468539" expanded="true" signature="166:218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/IOManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding>
+            <marker date="1555488079448" expanded="false" signature="6:159" ph="..." />
+            <marker date="1555488079448" expanded="true" signature="191:1171" ph="{...}" />
+            <marker date="1555488079448" expanded="true" signature="233:1169" ph="{...}" />
+            <marker date="1555488079448" expanded="true" signature="314:376" ph="{...}" />
+            <marker date="1555488079448" expanded="true" signature="404:458" ph="{...}" />
+            <marker date="1555488079448" expanded="true" signature="518:858" ph="{...}" />
+            <marker date="1555488079448" expanded="true" signature="558:641" ph="{...}" />
+            <marker date="1555488079448" expanded="true" signature="944:1163" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/ImageUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1555398550697" expanded="false" signature="6:35" ph="..." />
+            <marker date="1555398550697" expanded="true" signature="72:583" ph="{...}" />
+            <marker date="1555398550697" expanded="true" signature="109:581" ph="{...}" />
+            <marker date="1555398550697" expanded="true" signature="180:575" ph="{...}" />
+            <marker date="1555398550697" expanded="true" signature="347:538" ph="{...}" />
+            <marker date="1555398550697" expanded="true" signature="416:524" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/IAppManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+          <folding>
+            <marker date="1555527455167" expanded="false" signature="6:103" ph="..." />
+            <marker date="1555527455167" expanded="true" signature="135:1298" ph="{...}" />
+            <marker date="1555527455167" expanded="true" signature="170:1296" ph="{...}" />
+            <marker date="1555527455167" expanded="true" signature="185:254" ph="/// The manager's image. ... " />
+            <marker date="1555527455167" expanded="true" signature="293:359" ph="/// Sets the exposure ... " />
+            <marker date="1555527455167" expanded="true" signature="401:467" ph="/// Sets the contrast ... " />
+            <marker date="1555527455167" expanded="true" signature="509:577" ph="/// Sets the brightness ... " />
+            <marker date="1555527455167" expanded="true" signature="621:725" ph="/// Sets the cropper. The array must be like [x1,y1,x2,y2]. ... " />
+            <marker date="1555527455167" expanded="true" signature="765:979" ph="/// Loads a new file from path. ... " />
+            <marker date="1555527455167" expanded="true" signature="1025:1234" ph="/// Exports an image in the requested format. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/IOTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+          <folding>
+            <marker date="1555571093093" expanded="false" signature="6:145" ph="..." />
+            <marker date="1555571093093" expanded="true" signature="166:1940" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="173:259" ph="/// This class tests the manager's I/O operations ... " />
+            <marker date="1555571093093" expanded="true" signature="283:1938" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="564:629" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="647:759" ph="/// Tests the loading of the new image from the method LoadNewImage ... " />
+            <marker date="1555571093093" expanded="true" signature="824:1022" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="921:1012" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="1040:1150" ph="/// Tests the loading of the new image from the class constructor ... " />
+            <marker date="1555571093093" expanded="true" signature="1214:1416" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="1315:1406" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="1426:1501" ph="/// Tests the export operation ... " />
+            <marker date="1555571093093" expanded="true" signature="1549:1932" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="1646:1729" ph="{...}" />
+            <marker date="1555571093093" expanded="true" signature="1830:1922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/ExposureTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
+          <folding>
+            <marker date="1555571040411" expanded="false" signature="6:138" ph="..." />
+            <marker date="1555571040411" expanded="true" signature="159:2328" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="166:254" ph="/// Tests the basic operations on the Exposure tool ... " />
+            <marker date="1555571040411" expanded="true" signature="284:2326" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="362:499" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="513:588" ph="/// Tests an invalid parameter ... " />
+            <marker date="1555571040411" expanded="true" signature="647:1046" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="719:940" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="971:1036" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="1060:1135" ph="/// Tests a repeated parameter ... " />
+            <marker date="1555571040411" expanded="true" signature="1194:1730" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="1397:1625" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="1655:1720" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="1740:1819" ph="/// Test an out of range parameter ... " />
+            <marker date="1555571040411" expanded="true" signature="1880:2320" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="2083:2215" ph="{...}" />
+            <marker date="1555571040411" expanded="true" signature="2245:2310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/ContrastTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
+          <folding>
+            <marker date="1555571103570" expanded="false" signature="6:174" ph="..." />
+            <marker date="1555571103570" expanded="true" signature="195:2764" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="202:290" ph="/// Tests the basic operations on the Contrast tool ... " />
+            <marker date="1555571103570" expanded="true" signature="320:2762" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="397:533" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="592:981" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="672:876" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="908:971" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="991:1066" ph="/// Tests an invalid parameter ... " />
+            <marker date="1555571103570" expanded="true" signature="1125:1624" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="1310:1519" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="1549:1614" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="1634:1709" ph="/// Tests a repeated parameter ... " />
+            <marker date="1555571103570" expanded="true" signature="1766:2180" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="1954:2075" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="2105:2170" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="2190:2269" ph="/// Test an out of range parameter ... " />
+            <marker date="1555571103570" expanded="true" signature="2330:2756" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="2516:2651" ph="{...}" />
+            <marker date="1555571103570" expanded="true" signature="2681:2746" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/BrightNessTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <marker date="1555571013389" expanded="false" signature="6:109" ph="..." />
+            <marker date="1555571013389" expanded="true" signature="130:2504" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="167:2502" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="245:381" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="440:823" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="538:745" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="761:813" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="883:1448" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="1115:1343" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="1373:1438" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="1506:1964" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="1740:1859" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="1889:1954" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="2026:2496" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="2258:2391" ph="{...}" />
+            <marker date="1555571013389" expanded="true" signature="2421:2486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <marker date="1555570876683" expanded="false" signature="6:189" ph="..." />
+            <marker date="1555570876683" expanded="true" signature="210:1757" ph="{...}" />
+            <marker date="1555570876683" expanded="true" signature="230:1755" ph="{...}" />
+            <marker date="1555570876683" expanded="true" signature="276:1749" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/BrightNess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <marker date="1555402445552" expanded="false" signature="6:83" ph="..." />
+            <marker date="1555402445552" expanded="true" signature="116:1524" ph="{...}" />
+            <marker date="1555402445552" expanded="true" signature="166:1522" ph="{...}" />
+            <marker date="1555402445552" expanded="true" signature="291:311" ph="{...}" />
+            <marker date="1555402445552" expanded="true" signature="427:1379" ph="{...}" />
+            <marker date="1555402445552" expanded="true" signature="607:705" ph="{...}" />
+            <marker date="1555402445552" expanded="true" signature="910:1328" ph="{...}" />
+            <marker date="1555402445552" expanded="true" signature="979:1314" ph="{...}" />
+            <marker date="1555402445552" expanded="true" signature="1443:1516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Exposure.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding>
+            <marker date="1555570457999" expanded="false" signature="6:105" ph="..." />
+            <marker date="1555570457999" expanded="true" signature="138:3310" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="186:3308" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="369:424" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="434:563" ph="/// Creates a new Exposure. ... " />
+            <marker date="1555570457999" expanded="true" signature="611:666" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="779:1812" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="1042:1749" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="1112:1718" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="1888:2181" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="1965:2008" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="2048:2097" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="2265:3167" ph="{...}" />
+            <marker date="1555570457999" expanded="true" signature="3231:3302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/AppManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <folding>
+            <marker date="1555570060652" expanded="false" signature="6:213" ph="..." />
+            <marker date="1555570060652" expanded="true" signature="245:4529" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="252:421" ph="///The main controller class. ... " />
+            <marker date="1555570060652" expanded="true" signature="463:4527" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="1366:1413" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="1446:1725" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="1472:1715" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="1757:2036" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="1783:2026" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="2070:2359" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="2096:2349" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="2388:3280" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="2414:3270" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="2467:2603" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="3290:3413" ph="/// The class constructor ... " />
+            <marker date="1555570060652" expanded="true" signature="3449:4178" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="4077:4168" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="4222:4378" ph="{...}" />
+            <marker date="1555570060652" expanded="true" signature="4441:4521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Cropper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <marker date="1555526654958" expanded="false" signature="6:132" ph="..." />
+            <marker date="1555526654958" expanded="true" signature="165:1731" ph="{...}" />
+            <marker date="1555526654958" expanded="true" signature="212:1729" ph="{...}" />
+            <marker date="1555526654958" expanded="true" signature="570:590" ph="{...}" />
+            <marker date="1555526654958" expanded="true" signature="637:691" ph="{...}" />
+            <marker date="1555526654958" expanded="true" signature="802:1595" ph="{...}" />
+            <marker date="1555526654958" expanded="true" signature="1383:1544" ph="{...}" />
+            <marker date="1555526654958" expanded="true" signature="1450:1530" ph="{...}" />
+            <marker date="1555526654958" expanded="true" signature="1659:1723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/IIOManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <marker date="1555526238990" expanded="false" signature="6:77" ph="..." />
+            <marker date="1555526238990" expanded="true" signature="109:952" ph="{...}" />
+            <marker date="1555526238990" expanded="true" signature="116:195" ph="/// A component that allows I/O operations ... " />
+            <marker date="1555526238990" expanded="true" signature="227:950" ph="{...}" />
+            <marker date="1555526238990" expanded="true" signature="242:318" ph="/// Returns the input file name ... " />
+            <marker date="1555526238990" expanded="true" signature="365:542" ph="/// Loads an image from the input path ... " />
+            <marker date="1555526238990" expanded="true" signature="595:874" ph="/// Exports an image in the requested format to the specified uri ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
