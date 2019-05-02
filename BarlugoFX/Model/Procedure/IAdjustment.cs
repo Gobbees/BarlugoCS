@@ -6,15 +6,14 @@ namespace BarlugoFX.Model.Procedure
 {
     public interface IAdjustment
     {
-        
-        bool IsEnabled { get; set; };
+        bool IsEnabled { get; set; }
 
-        IImageTool ImageTool { get; };
+        IImageTool ImageTool { get; }
         
-        ToolType ToolType { get; };
+        Tool ToolType { get; }
         
-        IImage startImage { get; set; };
+        IImage startImage { get; set; }
         
-        IImage endImage { get; set; };
+        IImage endImage { get; set; }
     }
 }
