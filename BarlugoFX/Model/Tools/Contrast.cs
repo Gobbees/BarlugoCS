@@ -29,7 +29,7 @@ namespace BarlugoFX.Model.Tools
             return new Contrast();
         }
 
-        public override Tool ThisTool => Tool.Brightness;
+        public override Tool ThisTool => Tool.Contrast;
         public override IImage ApplyTool(IImage target)
         {
             var value = GetValueFromParameter(ParameterName.Contrast, -MaxValue, MaxValue, DefaultValue);

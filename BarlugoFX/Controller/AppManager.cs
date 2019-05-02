@@ -66,6 +66,16 @@ namespace BarlugoFX.Controller
                 _brightness.RemoveParameter(ParameterName.Brightness);
             }
         }
+        
+        public double Saturation
+        {
+            set
+            {
+                _saturation.AddParameter(ParameterName.Saturation, new Parameter<double>(value));
+                _image = _saturation.ApplyTool(_image);
+                _saturation.RemoveParameter(ParameterName.Saturation);
+            }
+        }
         public int[] Cropper
         {
             set
@@ -97,7 +107,7 @@ namespace BarlugoFX.Controller
             _contrast = Model.Tools.Contrast.CreateContrast();
             _brightness = new BrightNess();
             _wb = new BrightNess();
-            _saturation = new BrightNess();
+            _saturation = new Saturation();
             _hue = new BrightNess();
             _srgb = new BrightNess();
             _bw = new BrightNess();

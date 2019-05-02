@@ -5,6 +5,7 @@
         Brightness,
         Contrast,
         Cropper,
-        Exposure
+        Exposure,
+        Saturation
     }
 }

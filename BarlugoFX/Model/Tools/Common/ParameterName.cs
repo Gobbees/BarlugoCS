@@ -6,6 +6,7 @@ namespace BarlugoFX.Model.Tools.Common
         Brightness,
         Contrast,
         Exposure,
+        Saturation,
         X1,
         X2,
         Y1,
