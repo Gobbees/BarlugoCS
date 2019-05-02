@@ -21,7 +21,7 @@ namespace BarlugoFX.Model.Tools
         {
             return new Cropper();
         }
-        public override Tool ThisTool => Tool.Cropper;
+        public override Tool ToolType => Tool.Cropper;
         public override IImage ApplyTool(IImage target)
         {
             var x2 = (int) GetValueFromParameter(ParameterName.X2, MaxValue2, target.Width, target.Width);

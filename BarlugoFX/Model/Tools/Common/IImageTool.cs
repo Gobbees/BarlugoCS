@@ -13,6 +13,6 @@ namespace BarlugoFX.Model.Tools.Common
 
         void RemoveParameter(ParameterName name);
 
-        Tool ThisTool { get; }
+        Tool ToolType { get; }
     }
 }

@@ -8,7 +8,7 @@ namespace BarlugoFX.Model.Tools.Common
     {
         private IDictionary<ParameterName, IParameter<Double>> parameters = new Dictionary<ParameterName, IParameter<Double>>();
 
-        public abstract Tool ThisTool { get; }
+        public abstract Tool ToolType { get; }
 
         public void AddParameter(ParameterName name, IParameter<Double> value)
         {

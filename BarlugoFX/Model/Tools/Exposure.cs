@@ -26,7 +26,7 @@ namespace BarlugoFX.Model.Tools
             return new Exposure();
         }
 
-        public override Tool ThisTool => Tool.Exposure;
+        public override Tool ToolType => Tool.Exposure;
         public override IImage ApplyTool(IImage target)
         {
             _value = GetValueFromParameter(ParameterName.Exposure, Min, Max, DefaultValue);

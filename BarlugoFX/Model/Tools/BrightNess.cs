@@ -13,7 +13,7 @@ namespace BarlugoFX.Model.Tools
         {
         }
 
-        public override Tool ThisTool => Tool.Brightness;
+        public override Tool ToolType => Tool.Brightness;
 
         public override IImage ApplyTool(IImage target)
         {
