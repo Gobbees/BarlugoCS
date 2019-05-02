@@ -46,6 +46,12 @@ namespace BarlugoFX
             manager.Vibrance = 0.15;
             manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/Vibrance.jpeg"), ImageFormat.Jpeg );
             Console.WriteLine("Saved");
+            
+            manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/Output/input.jpeg"));
+            Console.WriteLine("Applying Hue....");
+            manager.Hue = 0.9;
+            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/Hue.jpeg"), ImageFormat.Jpeg );
+            Console.WriteLine("Saved");
         }
     }
 }

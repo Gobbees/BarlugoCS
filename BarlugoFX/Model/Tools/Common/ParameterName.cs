@@ -8,6 +8,7 @@ namespace BarlugoFX.Model.Tools.Common
         Exposure,
         Saturation,
         Vibrance,
+        Hue,
         X1,
         X2,
         Y1,

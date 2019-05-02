@@ -7,6 +7,7 @@
         Cropper,
         Exposure,
         Saturation,
-        Vibrance
+        Vibrance,
+        Hue
     }
 }

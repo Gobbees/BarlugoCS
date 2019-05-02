@@ -86,6 +86,15 @@ namespace BarlugoFX.Controller
                 _vibrance.RemoveParameter(ParameterName.Vibrance);
             }
         }
+        public double Hue
+        {
+            set
+            {
+                _hue.AddParameter(ParameterName.Hue, new Parameter<double>(value));
+                _image = _hue.ApplyTool(_image);
+                _hue.RemoveParameter(ParameterName.Hue);
+            }
+        }
         public int[] Cropper
         {
             set
@@ -118,7 +127,7 @@ namespace BarlugoFX.Controller
             _brightness = new BrightNess();
             _wb = new BrightNess();
             _saturation = new Saturation();
-            _hue = new BrightNess();
+            _hue = new Hue();
             _srgb = new BrightNess();
             _bw = new BrightNess();
             _vibrance = new Vibrance();

@@ -5,44 +5,39 @@ using System.Drawing;
 
 namespace BarlugoFX.Model.Tools
 {
-    public class Vibrance : AbstractImageTool
+    public class Hue : AbstractImageTool
     {
-        private const double MaxIncrement = 1;
-        private const double MinIncrement = -1;
-        private const double MaxSaturation = 1;
+        private const double Max = 1;
+        private const double Min = -1;
         private const double DefaultValue = 0;
 
-        private double _increment;
-        public Vibrance()
+        private double _value;
+        public Hue()
         {
-            _increment = DefaultValue;
+            _value = DefaultValue;
         }
 
         /// <summary>
-        /// Creates a new Vibrance.
+        /// Creates a new Hue.
         /// </summary>
         /// <returns>the instantiated modifier</returns>
-        public static Vibrance CreateVibrance()
+        public static Hue CreateHue()
         {
-            return new Vibrance();
+            return new Hue();
         }
 
-        public override Tool ThisTool => Tool.Vibrance;
+        public override Tool ThisTool => Tool.Hue;
         public override IImage ApplyTool(IImage target)
         {
-            _increment = GetValueFromParameter(ParameterName.Vibrance, MinIncrement, MaxIncrement, DefaultValue);
+            _value = GetValueFromParameter(ParameterName.Hue, Min, Max, DefaultValue);
             var pixels = target.ImageRGB;
             var newPixels = new int[target.Height, target.Width];
             for (int i = 0; (i < target.Height); i++) {
                 for (int j = 0; (j < target.Width); j++) {
-                    
-                    double brightness = ((ColorUtils.GetRed(pixels[i, j]) + (ColorUtils.GetGreen(pixels[i, j]) + ColorUtils.GetBlue(pixels[i, j]))) / 3);
-                    double maxColor = Math.Max(ColorUtils.GetGreen(pixels[i, j]), (Math.Max(ColorUtils.GetRed(pixels[i, j]), ColorUtils.GetBlue(pixels[i, j]))));
-                    
                     var hsb = Color.FromArgb(ColorUtils.GetAlpha(pixels[i, j]), ColorUtils.GetRed(pixels[i, j]),
                         ColorUtils.GetGreen(pixels[i, j]),
                         ColorUtils.GetBlue(pixels[i, j]));
-                    Color res = FromHSV(hsb.GetHue(), hsb.GetSaturation(), TruncateSum(hsb.GetBrightness(), (maxColor - brightness) * _increment));
+                    Color res = FromHSV(hsb.GetHue() + _value, hsb.GetSaturation(), hsb.GetBrightness());
                     newPixels[i, j] = res.ToArgb();
                     newPixels[i, j] = ColorUtils.SetAlpha(newPixels[i, j], ColorUtils.GetAlpha(pixels[i, j]));
                 }
@@ -55,8 +50,8 @@ namespace BarlugoFX.Model.Tools
         private static double TruncateSum(double hsv, double hue) 
         {
             var result = hsv + hue;
-            if (result > MaxSaturation) {
-                return MaxSaturation;
+            if (result > Max) {
+                return Max;
             } else {
                 if (result < 0) {
                     return 0;
@@ -92,7 +87,7 @@ namespace BarlugoFX.Model.Tools
         }
         protected override bool IsAccepted(ParameterName name)
         {
-            return name == ParameterName.Vibrance;
+            return name == ParameterName.Hue;
         }
     }
 }
