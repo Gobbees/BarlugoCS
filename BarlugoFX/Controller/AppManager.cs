@@ -76,6 +76,16 @@ namespace BarlugoFX.Controller
                 _saturation.RemoveParameter(ParameterName.Saturation);
             }
         }
+        
+        public double Vibrance
+        {
+            set
+            {
+                _vibrance.AddParameter(ParameterName.Vibrance, new Parameter<double>(value));
+                _image = _vibrance.ApplyTool(_image);
+                _vibrance.RemoveParameter(ParameterName.Vibrance);
+            }
+        }
         public int[] Cropper
         {
             set
@@ -111,7 +121,7 @@ namespace BarlugoFX.Controller
             _hue = new BrightNess();
             _srgb = new BrightNess();
             _bw = new BrightNess();
-            _vibrance = new BrightNess();
+            _vibrance = new Vibrance();
             _cropper = Model.Tools.Cropper.CreateCropper();
             _fileManager = new IOManager();
             if (file != null)

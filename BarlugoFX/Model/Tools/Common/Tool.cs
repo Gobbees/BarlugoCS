@@ -6,6 +6,7 @@
         Contrast,
         Cropper,
         Exposure,
-        Saturation
+        Saturation,
+        Vibrance
     }
 }

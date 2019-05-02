@@ -40,6 +40,12 @@ namespace BarlugoFX
             manager.Saturation = 0.25;
             manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/Saturation.jpeg"), ImageFormat.Jpeg );
             Console.WriteLine("Saved");
+            
+            manager = new AppManager(new Uri(Directory.GetCurrentDirectory() + "/Output/input.jpeg"));
+            Console.WriteLine("Applying Vibrance....");
+            manager.Vibrance = 0.15;
+            manager.ExportImage(new Uri(Directory.GetCurrentDirectory() + "/Output/Vibrance.jpeg"), ImageFormat.Jpeg );
+            Console.WriteLine("Saved");
         }
     }
 }
