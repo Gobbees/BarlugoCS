@@ -12,8 +12,8 @@ namespace BarlugoFX.Model.Procedure
         
         Tool ToolType { get; }
         
-        IImage startImage { get; set; }
+        IImage StartImage { get; set; }
         
-        IImage endImage { get; set; }
+        IImage EndImage { get; set; }
     }
 }
