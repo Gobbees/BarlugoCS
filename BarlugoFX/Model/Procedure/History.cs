@@ -4,7 +4,7 @@ using System.Runtime.ConstrainedExecution;
 
 namespace BarlugoFX.Model.Procedure
 {
-    public class History
+    public class History : IHistory
     {
         public static readonly int MaxSize = 32;
         private readonly IAction[] history = new Action[History.MaxSize];

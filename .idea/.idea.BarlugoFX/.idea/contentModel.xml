@@ -29,7 +29,13 @@
             <e p="ImageUtils.cs" t="Include" />
           </e>
           <e p="procedure" t="Include">
+            <e p="Action.cs" t="Include" />
+            <e p="ActionEnum.cs" t="Include" />
+            <e p="Adjustment.cs" t="Include" />
+            <e p="History.cs" t="Include" />
+            <e p="IAction.cs" t="Include" />
             <e p="IAdjustment.cs" t="Include" />
+            <e p="IHistory.cs" t="Include" />
           </e>
           <e p="Tools" t="Include">
             <e p="BrightNess.cs" t="Include" />
