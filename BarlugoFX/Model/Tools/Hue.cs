@@ -25,8 +25,8 @@ namespace BarlugoFX.Model.Tools
         {
             return new Hue();
         }
+        public override Tool ToolType => Tool.Hue;
 
-        public override Tool ThisTool => Tool.Hue;
         public override IImage ApplyTool(IImage target)
         {
             _value = GetValueFromParameter(ParameterName.Hue, Min, Max, DefaultValue);

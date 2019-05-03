@@ -27,7 +27,7 @@ namespace BarlugoFX
             var vibrance = Vibrance.CreateVibrance();
             try 
             {
-                vibrance.AddParameter(Model.Tools.Common.ParameterName.Vibrance, new Model.Tools.Common.Parameter<Double>(150));
+                vibrance.AddParameter(Model.Tools.Common.ParameterName.Saturation, new Model.Tools.Common.Parameter<Double>(150));
                 Assert.Fail("The Parameter Name is not valid");
             } 
             catch(Exception) 

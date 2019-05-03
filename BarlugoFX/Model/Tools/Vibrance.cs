@@ -27,7 +27,8 @@ namespace BarlugoFX.Model.Tools
             return new Vibrance();
         }
 
-        public override Tool ThisTool => Tool.Vibrance;
+        public override Tool ToolType  => Tool.Vibrance;
+
         public override IImage ApplyTool(IImage target)
         {
             _increment = GetValueFromParameter(ParameterName.Vibrance, MinIncrement, MaxIncrement, DefaultValue);

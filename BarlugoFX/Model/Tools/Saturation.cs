@@ -25,8 +25,8 @@ namespace BarlugoFX.Model.Tools
         {
             return new Saturation();
         }
+        public override Tool ToolType => Tool.Saturation;
 
-        public override Tool ThisTool => Tool.Saturation;
         public override IImage ApplyTool(IImage target)
         {
             _value = GetValueFromParameter(ParameterName.Saturation, Min, Max, DefaultValue);

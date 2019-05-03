@@ -40,7 +40,7 @@ namespace BarlugoFX.Model.Procedure
             {
                 throw new Exception("No more actions to undo.");
             }
-            readonly IAction action = this.history[this.currentActionIndex];
+            IAction action = this.history[this.currentActionIndex];
             this.currentActionIndex--;
             return action;
         }
@@ -55,6 +55,8 @@ namespace BarlugoFX.Model.Procedure
             this.currentActionIndex++;
             return this.history[this.currentActionIndex];
         }
+
+        public int Size => lastActionIndex + 1;
 
         private void shiftLeftHistory()
         {
