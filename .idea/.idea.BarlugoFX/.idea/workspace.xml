@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3c8e2737-e4b4-4ae7-9694-a4de039ec907" name="Default Changelist" comment="">
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/BarlugoFX/Model/Tools/BrightNess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BarlugoFX/Model/Tools/BrightNess.cs" afterDir="false" />
@@ -14,6 +15,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BarlugoFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BarlugoFX/.idea/workspace.xml" afterDir="false" />
 >>>>>>> Forgot to make History implement IHistory
     </list>
+=======
+    <list default="true" id="3c8e2737-e4b4-4ae7-9694-a4de039ec907" name="Default Changelist" comment="" />
+>>>>>>> Implemented Procedure
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.60583943">
       <split-first>
@@ -36,6 +41,9 @@
                     <marker date="1556846298762" expanded="true" signature="155:397" ph="{...}" />
 =======
     <splitter split-orientation="horizontal" split-proportion="0.5">
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.60583943">
+>>>>>>> Implemented Procedure
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -79,9 +87,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Procedure/Procedure.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+                <state relative-caret-position="525">
+                  <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
                   <folding>
+<<<<<<< HEAD
                     <marker date="1556842302470" expanded="true" signature="6:186" ph="..." />
                     <marker date="1556842302470" expanded="true" signature="223:1296" ph="{...}" />
                     <marker date="1556842302470" expanded="true" signature="265:1294" ph="{...}" />
@@ -96,6 +105,126 @@
                     <marker date="1556842302470" expanded="true" signature="1186:1219" ph="{...}" />
                     <marker date="1556842302470" expanded="true" signature="1255:1288" ph="{...}" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+                    <marker date="1556846052744" expanded="true" signature="6:275" ph="..." />
+                    <marker date="1556846052744" expanded="true" signature="425:6715" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="467:6713" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="922:1006" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="1057:1436" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="1126:1215" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="1502:2189" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="1548:1646" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="1696:1779" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="1833:1912" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="2235:2541" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="2321:2407" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="2583:3118" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="2643:2754" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="2908:3041" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="3185:3526" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="3271:3357" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="3593:4204" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="3652:3734" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="3771:3869" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="3937:4043" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="4246:4488" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="4306:4389" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="4530:4773" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="4590:4673" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="4803:5349" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="4899:5326" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="5379:5918" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="5487:5908" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="5970:6171" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="6029:6112" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="6214:6285" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="6333:6497" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="6453:6487" ph="/* ... */" />
+                    <marker date="1556846052744" expanded="true" signature="6544:6707" ph="{...}" />
+                    <marker date="1556846052744" expanded="true" signature="6602:6673" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/AppManager.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="735">
+                  <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+                  <folding>
+                    <marker date="1556463099770" expanded="false" signature="6:213" ph="..." />
+                    <marker date="1556463099770" expanded="true" signature="245:4529" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="252:421" ph="///The main controller class. ... " />
+                    <marker date="1556463099770" expanded="true" signature="463:4527" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="1366:1413" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="1446:1725" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="1472:1715" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="1757:2036" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="1783:2026" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="2070:2359" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="2096:2349" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="2388:3280" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="2414:3270" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="2467:2603" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="3290:3413" ph="/// The class constructor ... " />
+                    <marker date="1556463099770" expanded="true" signature="3449:4178" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="4077:4168" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="4222:4378" ph="{...}" />
+                    <marker date="1556463099770" expanded="true" signature="4441:4521" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BarlugoFX/ExposureTest.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="191">
+                  <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+                  <folding>
+                    <marker date="1556463099771" expanded="false" signature="6:138" ph="..." />
+                    <marker date="1556463099771" expanded="true" signature="159:2328" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="166:254" ph="/// Tests the basic operations on the Exposure tool ... " />
+                    <marker date="1556463099771" expanded="true" signature="284:2326" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="362:499" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="513:588" ph="/// Tests an invalid parameter ... " />
+                    <marker date="1556463099771" expanded="true" signature="647:1046" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="719:940" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="971:1036" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="1060:1135" ph="/// Tests a repeated parameter ... " />
+                    <marker date="1556463099771" expanded="true" signature="1194:1730" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="1397:1625" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="1655:1720" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="1740:1819" ph="/// Test an out of range parameter ... " />
+                    <marker date="1556463099771" expanded="true" signature="1880:2320" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="2083:2215" ph="{...}" />
+                    <marker date="1556463099771" expanded="true" signature="2245:2310" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Procedure/History.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                  <folding>
+                    <marker date="1556842514183" expanded="false" signature="6:85" ph="..." />
+                    <marker date="1556842514183" expanded="true" signature="122:1945" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="160:1943" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="393:494" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="541:1012" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="615:684" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="771:839" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="1049:1350" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="1104:1197" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="1387:1663" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="1462:1555" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="1704:1937" ph="{...}" />
+                    <marker date="1556842514183" expanded="true" signature="1768:1851" ph="{...}" />
+>>>>>>> Implemented Procedure
                   </folding>
                 </state>
               </provider>
@@ -133,13 +262,19 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Procedure/IProcedure.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="330">
+                  <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
                   <folding>
+<<<<<<< HEAD
                     <marker date="1556809040979" expanded="false" signature="6:69" ph="..." />
                     <marker date="1556809040979" expanded="true" signature="106:488" ph="{...}" />
                     <marker date="1556809040979" expanded="true" signature="140:486" ph="{...}" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+                    <marker date="1556845547605" expanded="false" signature="6:69" ph="..." />
+                    <marker date="1556845547605" expanded="true" signature="106:500" ph="{...}" />
+                    <marker date="1556845547605" expanded="true" signature="140:498" ph="{...}" />
+>>>>>>> Implemented Procedure
                   </folding>
                 </state>
               </provider>
@@ -258,13 +393,17 @@
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/Adjustment.cs" />
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/IAdjustment.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/IProcedure.cs" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+>>>>>>> Implemented Procedure
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/HistoryAction.cs" />
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/IAction.cs" />
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/ActionEnum.cs" />
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/Action.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/IHistory.cs" />
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/History.cs" />
@@ -273,6 +412,11 @@
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/History.cs" />
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/IHistory.cs" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/IHistory.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/History.cs" />
+        <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/IProcedure.cs" />
+>>>>>>> Implemented Procedure
         <option value="$PROJECT_DIR$/BarlugoFX/Model/Procedure/Procedure.cs" />
       </list>
     </option>
@@ -314,10 +458,14 @@
               <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
               <item name="Controller" type="24d0babc:SolutionExplorerModelNode" />
 =======
               <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+              <item name="Controller" type="24d0babc:SolutionExplorerModelNode" />
+>>>>>>> Implemented Procedure
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -325,15 +473,19 @@
               <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
               <item name="Procedure" type="24d0babc:SolutionExplorerModelNode" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+>>>>>>> Implemented Procedure
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BarlugoFX" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
+<<<<<<< HEAD
 <<<<<<< HEAD
               <item name="Procedure" type="24d0babc:SolutionExplorerModelNode" />
 =======
@@ -347,6 +499,9 @@
               <item name="Tools" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Common" type="24d0babc:SolutionExplorerModelNode" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+              <item name="Procedure" type="24d0babc:SolutionExplorerModelNode" />
+>>>>>>> Implemented Procedure
             </path>
           </expand>
           <select />
@@ -413,19 +568,27 @@
       <updated>1556463100864</updated>
       <workItem from="1556463103067" duration="4427000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1556755990319" duration="12173000" />
 =======
       <workItem from="1556755990319" duration="8212000" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+      <workItem from="1556755990319" duration="11910000" />
+>>>>>>> Implemented Procedure
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3000" />
 =======
     <option name="totallyTimeSpent" value="11064000" />
 >>>>>>> Forgot to make History implement IHistory
+=======
+    <option name="totallyTimeSpent" value="14762000" />
+>>>>>>> Implemented Procedure
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,6 +794,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/IImage.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -662,6 +826,8 @@
     </entry>
 =======
 >>>>>>> Forgot to make History implement IHistory
+=======
+>>>>>>> Implemented Procedure
     <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Tools/Common/ParameterName.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -777,6 +943,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BarlugoFX/ExposureTest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -803,6 +970,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Implemented Procedure
     <entry file="file://$PROJECT_DIR$/BarlugoFX/ContrastTest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1044,6 +1213,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/AppManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -1090,6 +1260,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Implemented Procedure
     <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Procedure/IAdjustment.cs">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1166,22 +1338,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Procedure/History.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="15">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <marker date="1556842028174" expanded="true" signature="6:85" ph="..." />
-            <marker date="1556842028174" expanded="true" signature="122:1934" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="149:1932" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="382:483" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="530:1001" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="604:673" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="760:828" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="1038:1339" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="1093:1186" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="1376:1652" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="1451:1544" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="1693:1926" ph="{...}" />
-            <marker date="1556842028174" expanded="true" signature="1757:1840" ph="{...}" />
+            <marker date="1556842514183" expanded="false" signature="6:85" ph="..." />
+            <marker date="1556842514183" expanded="true" signature="122:1945" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="160:1943" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="393:494" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="541:1012" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="615:684" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="771:839" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="1049:1350" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="1104:1197" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="1387:1663" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="1462:1555" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="1704:1937" ph="{...}" />
+            <marker date="1556842514183" expanded="true" signature="1768:1851" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/ImageTools/IImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1556463099772" expanded="true" signature="36:168" ph="{...}" />
+            <marker date="1556463099772" expanded="true" signature="66:166" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1206,34 +1389,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Procedure/IProcedure.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="330">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
-            <marker date="1556809040979" expanded="false" signature="6:69" ph="..." />
-            <marker date="1556809040979" expanded="true" signature="106:488" ph="{...}" />
-            <marker date="1556809040979" expanded="true" signature="140:486" ph="{...}" />
+            <marker date="1556845547605" expanded="false" signature="6:69" ph="..." />
+            <marker date="1556845547605" expanded="true" signature="106:500" ph="{...}" />
+            <marker date="1556845547605" expanded="true" signature="140:498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/Controller/AppManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <folding>
+            <marker date="1556463099770" expanded="false" signature="6:213" ph="..." />
+            <marker date="1556463099770" expanded="true" signature="245:4529" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="252:421" ph="///The main controller class. ... " />
+            <marker date="1556463099770" expanded="true" signature="463:4527" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="1366:1413" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="1446:1725" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="1472:1715" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="1757:2036" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="1783:2026" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="2070:2359" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="2096:2349" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="2388:3280" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="2414:3270" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="2467:2603" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="3290:3413" ph="/// The class constructor ... " />
+            <marker date="1556463099770" expanded="true" signature="3449:4178" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="4077:4168" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="4222:4378" ph="{...}" />
+            <marker date="1556463099770" expanded="true" signature="4441:4521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarlugoFX/ExposureTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <marker date="1556463099771" expanded="false" signature="6:138" ph="..." />
+            <marker date="1556463099771" expanded="true" signature="159:2328" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="166:254" ph="/// Tests the basic operations on the Exposure tool ... " />
+            <marker date="1556463099771" expanded="true" signature="284:2326" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="362:499" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="513:588" ph="/// Tests an invalid parameter ... " />
+            <marker date="1556463099771" expanded="true" signature="647:1046" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="719:940" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="971:1036" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="1060:1135" ph="/// Tests a repeated parameter ... " />
+            <marker date="1556463099771" expanded="true" signature="1194:1730" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="1397:1625" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="1655:1720" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="1740:1819" ph="/// Test an out of range parameter ... " />
+            <marker date="1556463099771" expanded="true" signature="1880:2320" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="2083:2215" ph="{...}" />
+            <marker date="1556463099771" expanded="true" signature="2245:2310" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BarlugoFX/Model/Procedure/Procedure.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="525">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
           <folding>
-            <marker date="1556842302470" expanded="true" signature="6:186" ph="..." />
-            <marker date="1556842302470" expanded="true" signature="223:1296" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="265:1294" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="568:742" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="623:719" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="780:813" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="849:882" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="921:954" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="992:1025" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="1048:1081" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="1104:1137" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="1186:1219" ph="{...}" />
-            <marker date="1556842302470" expanded="true" signature="1255:1288" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="6:275" ph="..." />
+            <marker date="1556846052744" expanded="true" signature="425:6715" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="467:6713" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="922:1006" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="1057:1436" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="1126:1215" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="1502:2189" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="1548:1646" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="1696:1779" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="1833:1912" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="2235:2541" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="2321:2407" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="2583:3118" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="2643:2754" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="2908:3041" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="3185:3526" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="3271:3357" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="3593:4204" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="3652:3734" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="3771:3869" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="3937:4043" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="4246:4488" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="4306:4389" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="4530:4773" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="4590:4673" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="4803:5349" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="4899:5326" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="5379:5918" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="5487:5908" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="5970:6171" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="6029:6112" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="6214:6285" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="6333:6497" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="6453:6487" ph="/* ... */" />
+            <marker date="1556846052744" expanded="true" signature="6544:6707" ph="{...}" />
+            <marker date="1556846052744" expanded="true" signature="6602:6673" ph="{...}" />
           </folding>
         </state>
       </provider>
